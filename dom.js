@@ -2,7 +2,7 @@ document.getElementById("add-btn").addEventListener("click", function () {
     const target = document.getElementById("main");
     const inputText = document.getElementById("input-text");
     if (inputText.value == "") {
-        return alert("plz type anything!");
+        return alert("plz type something!");
     }
     const li = document.createElement("li");
     li.style.listStyle = "none";
